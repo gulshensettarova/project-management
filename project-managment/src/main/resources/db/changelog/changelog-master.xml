@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+
+    <changeSet id="1" author="gulshan_sattarova">
+        <sqlFile path="db/changelog/1.0/1.0.1_create_table_category.sql" />
+    </changeSet>
+
+    <changeSet id="2" author="gulshan_sattarova">
+        <sqlFile path="db/changelog/1.0/1.0.2_create_table_task.sql" />
+    </changeSet>
+
+    <changeSet id="3" author="gulshan_sattarova">
+        <sqlFile path="db/changelog/1.0/1.0.3_insert_to_category.sql" />
+    </changeSet>
+
+    <changeSet id="4" author="gulshan_sattarova">
+        <sqlFile path="db/changelog/1.0/1.0.4_insert_to_task.sql" />
+    </changeSet>
+</databaseChangeLog>

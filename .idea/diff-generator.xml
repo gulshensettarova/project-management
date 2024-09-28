@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="updateChangeLogPath" value="project-managment/src/main/resources/db/changelog/changelog-master.xml" />
+    <option name="updateDbConnectionName" value="3ab04e32-9fd5-400a-bd2f-d18d431f0a9b__projectmanagment_public" />
+  </component>
+</project>
