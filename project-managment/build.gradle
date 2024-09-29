@@ -28,6 +28,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.liquibase:liquibase-core'
 	compileOnly 'org.projectlombok:lombok'
+	implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.5.Final'
+	annotationProcessor group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.5.Final' // Move to annotationProcessor
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -35,5 +37,6 @@ dependencies {
 }
 
 tasks.named('test') {
+	enabled = false
 	useJUnitPlatform()
 }

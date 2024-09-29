@@ -21,4 +21,8 @@
     <changeSet id="4" author="gulshan_sattarova">
         <sqlFile path="db/changelog/1.0/1.0.4_insert_to_task.sql" />
     </changeSet>
+
+    <changeSet id="5" author="gulshan_sattarova">
+        <sqlFile path="db/changelog/1.0/1.0.5_create_table_test.sql" />
+    </changeSet>
 </databaseChangeLog>
