@@ -8,7 +8,7 @@ import com.company.project_managment.model.dto.response.TaskResponse;
 import java.util.List;
 
 public interface TaskInterface {
-    Task createTask(TaskCreateRequest request);
+    boolean createTask(TaskCreateRequest request);
     Task updateTask(int id, TaskUpdateRequest request);
     void deleteTask(int id);
     List<Task> getTasksByCategory(String category);

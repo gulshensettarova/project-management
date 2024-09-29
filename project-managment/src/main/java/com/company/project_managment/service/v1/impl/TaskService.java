@@ -21,10 +21,10 @@ public class TaskService implements TaskInterface {
     }
 
     @Override
-    public Task createTask(TaskCreateRequest request) {
+    public boolean createTask(TaskCreateRequest request) {
         Task task = taskMapper.toEntity(request);
         taskRepository.save(task);
-        return task;
+        return true;
     }
 
     @Override

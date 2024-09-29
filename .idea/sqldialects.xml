@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/project-managment/src/main/resources/db/changelog/1.0/1.0.2_create_table_task.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/project-managment/src/main/resources/db/changelog/1.0/1.0.3_insert_to_category.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/project-managment/src/main/resources/db/changelog/1.0/1.0.4_insert_to_task.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/project-managment/src/main/resources/db/changelog/1.0/1.0.6_drop_table_test.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/project-managment/src/main/resources/db/changelog/1.0/1.1.3_alter_table_task_add_columns.sql" dialect="GenericSQL" />
   </component>
 </project>
