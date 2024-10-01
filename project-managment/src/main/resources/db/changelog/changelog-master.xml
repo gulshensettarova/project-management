@@ -46,5 +46,10 @@
     <changeSet id="12" author="gulshan_sattarova">
         <sqlFile path="db/changelog/1.0/1.1.3_alter_table_task_add_columns.sql" />
     </changeSet>
-
+    <changeSet id="13" author="gulshan_sattarova">
+        <sqlFile path="db/changelog/2.0/2.0.1_delete_table_task.sql" />
+    </changeSet>
+    <changeSet id="14" author="gulshan_sattarova">
+        <sqlFile path="db/changelog/2.0/2.0.2_insert_to_table.sql" />
+    </changeSet>
 </databaseChangeLog>
